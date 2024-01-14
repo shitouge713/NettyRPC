@@ -1,0 +1,19 @@
+
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://10.180.3.2:3306/h_order?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2b8&allowMultiQueries=true
+    username: test
+    password: Bx1jZLR3ZK5pic72NwaE
+
+server:
+  port: 8099
+
+rpc:
+  server:
+    addr: 127.0.0.1:18887
+    echo:
+      api:
+        port: 18886
